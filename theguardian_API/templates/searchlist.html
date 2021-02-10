@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+	{% if news[0] %}
+	<h3 class=" mb-5 ">Result of the Search : News List</h3>
+	<div >
+
+		{% for news in news %}
+
+			<div class="card bg-light mb-3 " >
+  				<div class="card-body">
+					<h5 class="card-title"><h5>Title : {{ news.headline }}</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Author : {{ news.author }}</h6>
+						<h6 class="card-subtitle mb-2 text-muted">Published at : {{ news.published_at }}</h6>
+						<h6 class="card-subtitle mb-2 text-muted">Category : {{ news.category }}</h6>
+						<h5 class="card-subtitle mb-2 text-muted">Description : </h5>
+						<p class="card-text">{{ news.content }}</p>
+
+  				</div>
+			</div>
+
+
+		{% endfor %}
+
+    </div>
+	{% else %}
+		<h4>No Result Found !!</h4>
+	{% endif %}
+	</table>
+	<div class=" mb-3"  ></div>
+	<a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Return to home </a>
+
+{% endblock %}
