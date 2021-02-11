@@ -31,7 +31,7 @@ The goal of this Project is to create a solution that crawls for articles from a
 
 * Flask (micro web development framework)
 
-The project is split up into two subprojects. We firstly scrape theguarduan news website to get news articles we are interesting in. then we Store the data in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas%22%20%5Ct%20%22_blank), a hosted Mongo database,
+The project is split up into two subprojects. We firstly scrape theguarduan news website to get news articles we are interesting in. then we Store the data in [MongoDB Atlas](https://www.mongodb.com/cloud), a hosted Mongo database,
 
 The second subproject corresponds to an API that provides access to the content in the mongo database. And allow as to search the articles' text by keyword.
 
@@ -143,7 +143,7 @@ This information is later being stored to test.test collection of mongodb databa
 |------|--------------------------------------|------------------------------------------|
 |GET  |/                                                     |get the home page |
 |GET |/showall  |List all article scrapped  |
-|POST  |/search?text |Search for article by text.  |
+|GET  |/search?text |Search for article by text.  |
   
 
   
