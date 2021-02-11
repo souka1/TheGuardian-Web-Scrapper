@@ -151,5 +151,5 @@ This information is later being stored to test.test collection of mongodb databa
 ## Technologies
 
   
-  ![](https://img.shields.io/badge/Scrapy-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ff69b4)    ![](https://img.shields.io/badge/Flask-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=brightgreen) ![](https://img.shields.io/badge/Mongodb-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=blueviolet)         ![](https://img.shields.io/badge/Mongodb-informational?style=?style=flat&logo=<LOGO_NAME>&logoColor=white&color=yellow)
+[![](https://img.shields.io/badge/Scrapy-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ff69b4)](https://scrapy.org)    [![](https://img.shields.io/badge/Flask-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=brightgreen)](https://flask.palletsprojects.com/en/1.1.x/)         [![](https://img.shields.io/badge/Mongodb-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=blueviolet)](https://www.mongodb.com/cloud/atlas)      [![](https://img.shields.io/badge/Pycharm-informational?style=?style=flat&logo=<LOGO_NAME>&logoColor=white&color=yellow)](https://www.jetbrains.com/pycharm/)
 
