@@ -11,7 +11,7 @@ BOT_NAME = 'theguardian'
 
 SPIDER_MODULES = ['theguardian.spiders']
 NEWSPIDER_MODULE = 'theguardian.spiders'
-MONGO_URI = 'mongodb+srv://<username>:<password>@cluster0.6h3jr.mongodb.net/test?retryWrites=true&w=majority'
+MONGO_URI = 'mongodb+srv://user-1:user@cluster0.6h3jr.mongodb.net/test?retryWrites=true&w=majority'
 
 MONGO_DATABASE = 'test'
 
